@@ -1,0 +1,21 @@
+{
+  "category": "NVIDIA",
+  "containerDiskInGb": 50,
+  "dockerEntrypoint": [],
+  "dockerStartCmd": [],
+  "env": {
+    "HF_HOME": "/workspace/hf-cache",
+    "HF_HUB_ENABLE_HF_TRANSFER": "1"
+  },
+  "imageName": "ghcr.io/lookmyhealth/klein9b-runware-trainer:v1.0.0",
+  "isPublic": false,
+  "isServerless": false,
+  "name": "Klein9B Runware LoRA Trainer v1",
+  "ports": [
+    "8888/http",
+    "22/tcp"
+  ],
+  "readme": "Pinned FLUX.2 Klein 9B AI Toolkit trainer. Attach network volume 8js0x3ituv at /workspace.",
+  "volumeInGb": 0,
+  "volumeMountPath": "/workspace"
+}

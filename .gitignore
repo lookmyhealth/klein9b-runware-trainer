@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+dataset/
+datasets/
+output/
+outputs/
+models/
+hf-cache/
